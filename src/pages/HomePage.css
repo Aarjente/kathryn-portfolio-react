@@ -1,0 +1,64 @@
+.centered-block {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.text-block {
+    width: 60%;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    margin: 32px 64px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #ebebeb;
+    border-radius: 4px;
+    padding: 32px;
+
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    background-color: #ccc;
+}
+
+.project-card-image {
+    width: 960px;
+    height: 720px;
+}
+
+.project-card-details-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: auto;
+    margin-left: 60px;
+}
+
+.project-card-title  {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.project-card-subtitle  {
+    font-size: 16px;
+    margin-right: 50%;
+}
+
+.project-card-date {
+    font-size: 12px;
+    margin-block-start: auto;
+}
