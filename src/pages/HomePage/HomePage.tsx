@@ -1,4 +1,4 @@
-import '../styles/typography.css';
+import '../../styles/typography.css';
 import './HomePage.css';
 
 
@@ -16,7 +16,6 @@ interface ProjectCardProps {
 const unsplashUrl = "https://source.unsplash.com/random/1024x768";
 
 const junkText = "Viral cornhole fixie seitan PBR&B, pop-up church-key waistcoat tacos semiotics palo santo shabby chic sartorial ugh hella. Hexagon heirloom microdosing cold-pressed, cloud bread truffaut etsy fingerstache actually gluten-free readymade biodiesel pork belly schlitz.";
-
 
 const projectCards: Array<ProjectCardProps> = [
     {
